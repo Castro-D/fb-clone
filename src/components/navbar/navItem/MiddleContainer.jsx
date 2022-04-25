@@ -17,7 +17,7 @@ const Container = styled.div`
   `
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  color: #eeeeee;
+  color: #65676B;
   cursor: pointer;
 `
 

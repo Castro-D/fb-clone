@@ -36,7 +36,7 @@ const User = styled.p`
 `
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  color: #eeeeee;
+  color: #050505;
   cursor: pointer;
 `
 
@@ -45,13 +45,13 @@ export default function ThirdNavItem() {
     <Container>
       <ProfileContainer>
         <Login>
-          <StyledFontAwesomeIcon icon={faUser} size="xl"  />
+          <StyledFontAwesomeIcon icon={faUser} size="l"  />
           <User>Diego</User>
         </Login>
-        <StyledFontAwesomeIcon icon={faPlus} size="xl"  />
-        <StyledFontAwesomeIcon icon={faMessage} size="xl"  />
-        <StyledFontAwesomeIcon icon={faBell} size="xl"  />
-        <StyledFontAwesomeIcon icon={faCaretDown} size="xl"  />
+        <StyledFontAwesomeIcon icon={faPlus} size="l"  />
+        <StyledFontAwesomeIcon icon={faMessage} size="l"  />
+        <StyledFontAwesomeIcon icon={faBell} size="l"  />
+        <StyledFontAwesomeIcon icon={faCaretDown} size="l"  />
       </ProfileContainer>
     </Container>
   );

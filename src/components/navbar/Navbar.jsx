@@ -7,11 +7,12 @@ import ThirdNavItem from "./navItem/ThirdNavItem";
 const Container = styled.div`
     display:flex;
     justify-content:space-between;
-    background-color: red;
+    background-color: #ffffff;
     padding: 10px;
-    
+    width:100%;
+    position: absolute;
   `;
- // poner position absolute
+
 
 export default function NavBar() {
   return (
