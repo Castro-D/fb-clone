@@ -45,13 +45,13 @@ export default function ThirdNavItem() {
     <Container>
       <ProfileContainer>
         <Login>
-          <StyledFontAwesomeIcon icon={faUser} size="l"  />
+          <StyledFontAwesomeIcon icon={faUser} size="lg"  />
           <User>Diego</User>
         </Login>
-        <StyledFontAwesomeIcon icon={faPlus} size="l"  />
-        <StyledFontAwesomeIcon icon={faMessage} size="l"  />
-        <StyledFontAwesomeIcon icon={faBell} size="l"  />
-        <StyledFontAwesomeIcon icon={faCaretDown} size="l"  />
+        <StyledFontAwesomeIcon icon={faPlus} size="lg"  />
+        <StyledFontAwesomeIcon icon={faMessage} size="lg"  />
+        <StyledFontAwesomeIcon icon={faBell} size="lg"  />
+        <StyledFontAwesomeIcon icon={faCaretDown} size="lg"  />
       </ProfileContainer>
     </Container>
   );

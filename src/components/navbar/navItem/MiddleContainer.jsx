@@ -24,11 +24,11 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
 export default function MiddleContainer() {
   return (
     <Container>
-      <StyledFontAwesomeIcon icon={faHouse} size="xl" />
-      <StyledFontAwesomeIcon icon={faUserGroup} size="xl"  />
-      <StyledFontAwesomeIcon icon={faTv} size="xl"  />
-      <StyledFontAwesomeIcon icon={faPeopleGroup} size="xl"  />
-      <StyledFontAwesomeIcon icon={faGamepad} size="xl"  />
+      <StyledFontAwesomeIcon icon={faHouse} size="lg" />
+      <StyledFontAwesomeIcon icon={faUserGroup} size="lg"  />
+      <StyledFontAwesomeIcon icon={faTv} size="lg"  />
+      <StyledFontAwesomeIcon icon={faPeopleGroup} size="lg"  />
+      <StyledFontAwesomeIcon icon={faGamepad} size="lg"  />
     </Container>
   )
 }
