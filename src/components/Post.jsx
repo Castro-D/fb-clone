@@ -31,6 +31,17 @@ const StyledImg = styled.img.attrs({
   width: 36px;
 `
 
+const Footer = styled.div`
+  display: flex;
+  justify-content:center;
+ 
+`
+
+const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+  color: #65676B;
+  padding-right:5px;
+`
+
 function Post() {
   return  (
     <Container>
@@ -43,11 +54,18 @@ function Post() {
         </div>
       </Header>
       <Body>
-        lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 
+        Hola, esto es un ejemplo
       </Body>
-      <div>
-        card footer
-      </div>
+      <Footer>
+        <div style={{display: "flex", justifyContent:"center",flex: "0 0 50%", alignItems: "center", padding:"10px 0px", cursor:"pointer"}}> {/*like*/}
+          <StyledFontAwesomeIcon icon={faThumbsUp} size="lg" />
+          Me gusta
+        </div>
+        <div style={{display: "flex", justifyContent:"center",flex: "0 0 50%", alignItems: "center",padding:"10px 0px", cursor:"pointer"}}> {/*comment*/}
+          <StyledFontAwesomeIcon icon={faComment} size="lg" />
+          Comentar
+        </div>
+      </Footer>
     </Container>
   );
 }

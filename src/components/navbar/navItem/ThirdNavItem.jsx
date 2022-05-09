@@ -11,7 +11,7 @@ import {
 
 const Container = styled.div`
   display:flex;
-  align-items: center
+  align-items: center;
 
 `;
 
@@ -19,7 +19,7 @@ const ProfileContainer = styled.div`
   display: flex;
   width: 250px;
   justify-content: space-between;
-  align-items:center
+  align-items:center;
 `;
 
 const Login = styled.div`

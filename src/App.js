@@ -5,6 +5,19 @@ import styled from 'styled-components';
 import Post from './components/Post';
 
 const GlobalStyle = createGlobalStyle`
+
+  body {
+    height:100%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #root {
+    height:100%;
+  }
+
   main {
     background-color:#F0F2F5;
     display: flex;
@@ -36,6 +49,10 @@ function App() {
         
         <Container>
           <Main>
+            <Post />
+            <Post />
+            <Post />
+            <Post />
             <Post />
             <Post />
             <Post />
