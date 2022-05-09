@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faThumbsUp,
@@ -42,6 +42,26 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   padding-right:5px;
 `
 
+const baseButtonStyles = css`
+  display:flex;
+  justify-content:center;
+  flex: 0 0 50%;
+  align-items: center;
+  padding: 10px 0px;
+  cursor: pointer;
+  &:hover {
+    background-color: #eeeeee;
+  }
+`;
+
+const Like = styled.div`
+  ${baseButtonStyles}
+`
+
+const Comment = styled.div`
+  ${baseButtonStyles}
+`
+
 function Post() {
   return  (
     <Container>
@@ -57,14 +77,14 @@ function Post() {
         Hola, esto es un ejemplo
       </Body>
       <Footer>
-        <div style={{display: "flex", justifyContent:"center",flex: "0 0 50%", alignItems: "center", padding:"10px 0px", cursor:"pointer"}}> {/*like*/}
+        <Like> 
           <StyledFontAwesomeIcon icon={faThumbsUp} size="lg" />
           Me gusta
-        </div>
-        <div style={{display: "flex", justifyContent:"center",flex: "0 0 50%", alignItems: "center",padding:"10px 0px", cursor:"pointer"}}> {/*comment*/}
+        </Like>
+        <Comment> 
           <StyledFontAwesomeIcon icon={faComment} size="lg" />
           Comentar
-        </div>
+        </Comment>
       </Footer>
     </Container>
   );
