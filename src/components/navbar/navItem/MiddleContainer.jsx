@@ -13,7 +13,7 @@ const Container = styled.div`
   display: flex;
   width: 30%;
   justify-content: space-between;
-  align-items:center
+  align-items:center;
   `
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
