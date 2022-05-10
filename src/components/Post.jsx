@@ -74,7 +74,7 @@ function Post() {
         </div>
       </Header>
       <Body>
-        Hola, esto es un ejemplo
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur odit fuga minima nihil voluptate magni veritatis vitae sint minus distinctio? Rem, voluptatum. In, illum quae ex asperiores quo quisquam quam.
       </Body>
       <Footer>
         <Like> 

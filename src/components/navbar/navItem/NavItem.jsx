@@ -36,6 +36,10 @@ const StyledInput = styled.input`
   outline: none;
   background-color: #F0F2F5;
   border-radius:50px;
+  @media screen and (max-width: 1000px){
+    width:0;
+  }
+  
 `
 
 export default function NavItem() {

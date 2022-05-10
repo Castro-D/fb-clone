@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const ProfileContainer = styled.div`
   display: flex;
-  width: 250px;
+  width: clamp(150px, 20vw, 380px);
   justify-content: space-between;
   align-items:center;
 `;
@@ -26,6 +26,10 @@ const Login = styled.div`
   display:flex;
   align-items: center;
   cursor:pointer;
+  @media screen  and (max-width: 1000px){
+    display:none;
+  }
+  
 `
 
 const User = styled.p`
@@ -33,6 +37,7 @@ const User = styled.p`
   font-weight:600;
   font-family: Arial;
   padding-left:10px;
+  
 `
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
