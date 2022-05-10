@@ -18,16 +18,36 @@ const Container = styled.div`
 
 `;
 
+const StyledLabel = styled.label`
+  display: flex;
+  background-color: #F0F2F5;
+  border-radius: 50px;
+`
+
+const StyledSpan = styled.span`
+  display:flex;
+  align-items: center;
+  padding-left: 12px;
+`
+
+const StyledInput = styled.input`
+  padding:10px;
+  border:0;
+  outline: none;
+  background-color: #F0F2F5;
+  border-radius:50px;
+`
+
 export default function NavItem() {
   return (
     <Container>
       <Logo />
-      <label style={{display: "flex", backgroundColor: "#F0F2F5", borderRadius:"50px"}}>
-        <span style={{display: "flex", alignItems: "center", paddingLeft:"12px"}}>
+      <StyledLabel>
+        <StyledSpan>
           <FontAwesomeIcon icon={faMagnifyingGlass} size="sm" />
-        </span>
-        <input style={{padding: "10px", border: 0, outline: "none", backgroundColor: "#F0F2F5",borderRadius:"50px"}} />
-      </label>
+        </StyledSpan>
+        <StyledInput />
+      </StyledLabel>
     </Container>
   );
 }
