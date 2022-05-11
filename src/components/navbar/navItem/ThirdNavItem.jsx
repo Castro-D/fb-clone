@@ -18,7 +18,7 @@ const Container = styled.div`
 const ProfileContainer = styled.div`
   display: flex;
   width: clamp(150px, 20vw, 380px);
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:center;
 `;
 

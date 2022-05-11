@@ -22,6 +22,10 @@ const StyledLabel = styled.label`
   display: flex;
   background-color: #F0F2F5;
   border-radius: 50px;
+  height:40px;
+  @media screen and (max-width: 1000px){
+    border-radius:50%;
+  }
 `
 
 const StyledSpan = styled.span`
@@ -37,7 +41,9 @@ const StyledInput = styled.input`
   background-color: #F0F2F5;
   border-radius:50px;
   @media screen and (max-width: 1000px){
+    padding-left: 5px;
     width:0;
+    background-color: transparent;
   }
   
 `
@@ -50,7 +56,7 @@ export default function NavItem() {
         <StyledSpan>
           <FontAwesomeIcon icon={faMagnifyingGlass} size="sm" />
         </StyledSpan>
-        <StyledInput />
+        <StyledInput placeholder="Buscar en facebook" />
       </StyledLabel>
     </Container>
   );
