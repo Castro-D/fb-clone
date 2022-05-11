@@ -75,6 +75,7 @@ function Post() {
       </Header>
       <Body>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur odit fuga minima nihil voluptate magni veritatis vitae sint minus distinctio? Rem, voluptatum. In, illum quae ex asperiores quo quisquam quam.
+        <img src="../../images/landscape.jpg" style={{width:"100%", padding: "15px 0px"}}></img>
       </Body>
       <Footer>
         <Like> 

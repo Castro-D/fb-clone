@@ -48,11 +48,6 @@ function App() {
           <Post />
           <Post />
           <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post /> 
         </Container>
         
       </main>
