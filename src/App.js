@@ -32,11 +32,7 @@ const Container = styled.div`
   display:flex;
   flex-direction: column;
   align-items:center;
-`
-
-const Main = styled.div`
-  width: 500px;
-
+  width:500px;
 `
 
 function App() {
@@ -47,19 +43,11 @@ function App() {
       <NavBar />
       <main>
         
-        <Container>
-          <Main>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-
-          </Main>
+        <Container>         
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </Container>
         
       </main>
